@@ -1,0 +1,30 @@
+
+
+.exp2_grow {
+  flex-grow: 1;
+}
+
+.exp2_container {
+  display: flex;
+}
+
+
+
+/*---------------*/
+
+.container {
+  border: 2px black solid;
+}
+
+.exp2_container {
+  margin-left: -15px;
+}
+
+.exp2_container > div {
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 15px;
+  padding: 15px;
+}

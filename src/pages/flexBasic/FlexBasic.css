@@ -1,0 +1,27 @@
+
+
+
+.exp1_container {
+  display: flex;
+}
+
+
+
+/*---------------*/
+
+.container {
+  border: 2px black solid;
+}
+
+.exp1_container {
+  margin-left: -15px;
+}
+
+.exp1_container > div {
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 15px;
+  padding: 15px;
+}

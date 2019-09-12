@@ -1,0 +1,26 @@
+.exp5_shrink {
+  flex-shrink: 1;
+}
+
+.exp5_container {
+  display: flex;
+}
+
+/*---------------*/
+
+.container {
+  border: 2px black solid;
+}
+
+.exp5_container {
+  margin-left: -15px;
+}
+
+.exp5_container > div {
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 15px;
+  padding: 15px;
+}

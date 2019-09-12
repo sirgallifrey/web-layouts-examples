@@ -1,0 +1,34 @@
+.exp4_grow_1 {
+  flex-grow: 1;
+}
+
+.exp4_grow_2 {
+  flex-grow: 2;
+}
+
+.exp4_grow_3 {
+  flex-grow: 3;
+}
+
+.exp4_container {
+  display: flex;
+}
+
+/*---------------*/
+
+.container {
+  border: 2px black solid;
+}
+
+.exp4_container {
+  margin-left: -15px;
+}
+
+.exp4_container > div {
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 15px;
+  padding: 15px;
+}

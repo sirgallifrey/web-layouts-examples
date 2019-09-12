@@ -1,0 +1,11 @@
+.features-sideMenu__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.features-sideMenu__root {
+    grid-area: sidebar;
+    padding: 30px 15px;
+    background-color: #eee;
+}

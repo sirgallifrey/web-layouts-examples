@@ -1,0 +1,70 @@
+.layouts-dashboard__grid {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 45px minmax(max-content, auto) max-content;
+    grid-template-areas:
+    "header header"
+    "sidebar content"
+    "sidebar footer";
+}
+
+
+.grid {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "sidebar content"
+    "sidebar footer";
+}
+
+
+.grid {
+    display: grid;
+    min-height: 100vh;
+    grid-template-areas:
+    "header header"
+    "sidebar content"
+    "sidebar footer";
+}
+
+.grid {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 45px minmax(max-content, auto) max-content;
+    grid-template-areas:
+    "header header"
+    "sidebar content"
+    "sidebar footer";
+}
+
+
+.template__wideHeader .layouts-dashboard__grid {
+    grid-template-areas:
+    "header header"
+    "sidebar content"
+    "sidebar footer";
+}
+
+.template__wideFooter .layouts-dashboard__grid {
+    grid-template-areas:
+    "sidebar header"
+    "sidebar content"
+    "footer footer";
+}
+
+.template__wideHeader.template__wideFooter .layouts-dashboard__grid {
+    grid-template-areas:
+    "header header"
+    "sidebar content"
+    "footer footer";
+}
+
+.template__inverted .layouts-dashboard__grid {
+    grid-template-columns: auto 200px;
+    grid-template-areas:
+    "header sidebar"
+    "content sidebar"
+    "footer sidebar";
+}

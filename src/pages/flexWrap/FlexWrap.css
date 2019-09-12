@@ -1,0 +1,28 @@
+.exp6_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.exp6_container > div{
+  flex-grow: 1;
+}
+
+/*---------------*/
+
+.container {
+  border: 2px black solid;
+}
+
+.exp6_container {
+  margin-left: -15px;
+}
+
+.exp6_container > div {
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 15px;
+  padding: 15px;
+  margin-bottom: 15px;
+}

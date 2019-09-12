@@ -1,0 +1,26 @@
+.exp3_grow {
+  flex-grow: 1;
+}
+
+.exp3_container {
+  display: flex;
+}
+
+/*---------------*/
+
+.container {
+  border: 2px black solid;
+}
+
+.exp3_container {
+  margin-left: -15px;
+}
+
+.exp3_container > div {
+  background-color: orange;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 15px;
+  padding: 15px;
+}
